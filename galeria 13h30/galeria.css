@@ -1,0 +1,86 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(136, 173, 243);
+}
+
+h1{
+    font-size: 50px;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgba(119, 53, 206, 0.924);
+}
+
+.container{
+    height: 560px;
+    width: 900px;
+    overflow: hidden;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.navegacao{
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translate(-50%);
+    display: flex;
+}
+
+.bar{
+    width: 30px;
+    height: 5px;
+    margin: 6px;
+    background-color: rgba(9, 1, 100, 0.822);
+    transition: 0.3s;
+}
+
+.bar:hover{
+    background-color: rgb(136, 79, 245);
+}
+
+input{
+    display: none;
+}
+
+.imagens {
+    display: flex;
+    height: 100%;
+    width: 600%;
+}
+
+.imagem {
+    width: 16.6666666667%;
+    transition: .5s;
+}
+
+.imagem img {
+    width: 100%;
+    height: 100%;
+}
+
+#imagem1:checked ~.img1 {
+    margin-left: 0;
+}
+
+#imagem2:checked ~.img1{
+    margin-left: -16.6666666667%;
+}
+
+#imagem3:checked ~.img1{
+    margin-left: -33.3333333334%;
+}
+
+#imagem4:checked ~.img1{
+    margin-left: -50.0000000001%;
+}
+
+#imagem5:checked ~.img1{
+    margin-left: -66.6666666668%;
+}
+
+#imagem6:checked ~.img1{
+    margin-left: -83.3333333335%;
+}
