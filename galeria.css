@@ -4,13 +4,6 @@ body{
     background-color: rgb(136, 173, 243);
 }
 
-h1{
-    font-size: 50px;
-    text-align: center;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    color: rgba(119, 53, 206, 0.924);
-}
-
 .container{
     height: 560px;
     width: 900px;
